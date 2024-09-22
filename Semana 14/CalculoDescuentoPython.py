@@ -1,4 +1,4 @@
-#Crear una función llamada calcular_descuento que tome dos parametros
+#Crear una función llamada calcular_descuento que tome dos parametros : el monto total de la compra y un valor predeterminado para el porcentaje de descuento (por ejemplo, 10% por defecto).
 
 def calcular_descuento(monto_total, porcentaje_descuento=10):#función para calcular_descuento
     descuento = monto_total * (porcentaje_descuento / 100)
